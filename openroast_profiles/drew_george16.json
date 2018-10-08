@@ -1,0 +1,149 @@
+{
+    "roastDescription": {
+        "roastType": "",
+        "description": ""
+    },
+    "steps": [
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 206
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 240
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 264
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 283
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 300
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 315
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 325
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 337
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 29,
+            "targetTemp": 348
+        },
+        {
+            "fanSpeed": 8,
+            "sectionTime": 29,
+            "targetTemp": 356
+        },
+        {
+            "fanSpeed": 8,
+            "sectionTime": 29,
+            "targetTemp": 363
+        },
+        {
+            "fanSpeed": 7,
+            "sectionTime": 29,
+            "targetTemp": 370
+        },
+        {
+            "fanSpeed": 7,
+            "sectionTime": 29,
+            "targetTemp": 375
+        },
+        {
+            "fanSpeed": 6,
+            "sectionTime": 29,
+            "targetTemp": 380
+        },
+        {
+            "fanSpeed": 6,
+            "sectionTime": 29,
+            "targetTemp": 385
+        },
+        {
+            "fanSpeed": 6,
+            "sectionTime": 29,
+            "targetTemp": 390
+        },
+        {
+            "fanSpeed": 6,
+            "sectionTime": 29,
+            "targetTemp": 398
+        },
+        {
+            "fanSpeed": 5,
+            "sectionTime": 29,
+            "targetTemp": 408
+        },
+        {
+            "fanSpeed": 5,
+            "sectionTime": 29,
+            "targetTemp": 413
+        },
+        {
+            "fanSpeed": 5,
+            "sectionTime": 29,
+            "targetTemp": 418
+        },
+        {
+            "fanSpeed": 5,
+            "sectionTime": 29,
+            "targetTemp": 423
+        },
+        {
+            "fanSpeed": 4,
+            "sectionTime": 29,
+            "targetTemp": 428
+        },
+        {
+            "fanSpeed": 4,
+            "sectionTime": 29,
+            "targetTemp": 432
+        },
+ 	{
+            "fanSpeed": 4,
+            "sectionTime": 29,
+            "targetTemp": 436
+        },
+ 	{
+            "fanSpeed": 4,
+            "sectionTime": 29,
+            "targetTemp": 440
+        },
+        {
+            "fanSpeed": 9,
+            "sectionTime": 180,
+            "cooling": true
+        }
+    ],
+    "bean": {
+        "country": "",
+        "region": "",
+        "source": {
+            "link": "",
+            "reseller": ""
+        }
+    },
+    "roastName": "16 - CLPRH",
+    "creator": "",
+    "totalTime": 870
+}
