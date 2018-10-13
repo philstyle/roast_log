@@ -1,0 +1,34 @@
+{
+    "totalTime": 30,
+    "roastName": "30-sec-heat",
+    "bean": {
+        "region": "",
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        }
+    },
+    "creator": "",
+    "roastDescription": {
+        "roastType": "",
+        "description": ""
+    },
+    "steps": [
+        {
+            "sectionTime": 10,
+            "targetTemp": 150,
+            "fanSpeed": 5
+        },
+        {
+            "sectionTime": 10,
+            "targetTemp": 220,
+            "fanSpeed": 5
+        },
+        {
+            "sectionTime": 10,
+            "targetTemp": 300,
+            "fanSpeed": 5
+        }
+    ]
+}

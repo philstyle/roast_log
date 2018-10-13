@@ -1,0 +1,24 @@
+{
+    "roastName": "FAN",
+    "steps": [
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 120
+        }
+    ],
+    "totalTime": 120,
+    "bean": {
+        "country": "",
+        "source": {
+            "link": "",
+            "reseller": ""
+        },
+        "region": ""
+    },
+    "roastDescription": {
+        "description": "",
+        "roastType": ""
+    },
+    "creator": "FAN"
+}

@@ -1,0 +1,154 @@
+{
+    "steps": [
+        {
+            "fanSpeed": 9,
+            "targetTemp": 206,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 240,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 264,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 283,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 300,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 315,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 325,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 337,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 348,
+            "sectionTime": 9
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 356,
+            "sectionTime": 11
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 363,
+            "sectionTime": 12
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 370,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 375,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 380,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 385,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 390,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 398,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 408,
+            "sectionTime": 19
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 413,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 418,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 423,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 428,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 432,
+            "sectionTime": 39
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 436,
+            "sectionTime": 49
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 440,
+            "sectionTime": 49
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 444,
+            "sectionTime": 59
+        },
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 180
+        }
+    ],
+    "totalTime": 964,
+    "roastDescription": {
+        "description": "",
+        "roastType": ""
+    },
+    "bean": {
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        },
+        "region": ""
+    },
+    "roastName": "23 - very fast ramp 9:30 tot",
+    "creator": ""
+}
