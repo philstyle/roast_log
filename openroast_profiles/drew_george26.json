@@ -121,12 +121,12 @@
             "sectionTime": 49
         },
         {
-            "fanSpeed": 4,
+            "fanSpeed": 5,
             "targetTemp": 441,
             "sectionTime": 49
         },
         {
-            "fanSpeed": 4,
+            "fanSpeed": 6,
             "targetTemp": 444,
             "sectionTime": 59
         },
