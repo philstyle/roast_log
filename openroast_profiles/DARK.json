@@ -1,0 +1,159 @@
+{
+    "steps": [
+        {
+            "fanSpeed": 9,
+            "targetTemp": 200,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 232,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 258,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 280,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 298,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 313,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 327,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 338,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 349,
+            "sectionTime": 15
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 359,
+            "sectionTime": 16
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 368,
+            "sectionTime": 17
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 376,
+            "sectionTime": 18
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 383,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 389,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 395,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 400,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 405,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 410,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 415,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 420,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 425,
+            "sectionTime": 39
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 430,
+            "sectionTime": 39
+        },
+        {
+            "fanSpeed": 4,
+            "targetTemp": 434,
+            "sectionTime": 49
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 438,
+            "sectionTime": 59
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 441,
+            "sectionTime": 69
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 444,
+            "sectionTime": 89
+        },
+		{
+            "fanSpeed": 7,
+            "targetTemp": 446,
+            "sectionTime": 29
+        },
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 180
+        }
+    ],
+    "totalTime": 964,
+    "roastDescription": {
+        "description": "",
+        "roastType": ""
+    },
+    "bean": {
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        },
+        "region": ""
+    },
+    "roastName": "DARK roast. 13:30 w/ fc@7-10",
+    "creator": "dozier"
+}
