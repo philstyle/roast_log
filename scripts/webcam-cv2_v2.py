@@ -16,18 +16,22 @@ def show_webcam(mirror=False):
         print(img)
         numpy.put(img, [0,1,2], avg_color)
         print(img)
-        if number > 100000:
+        if number > 10000000:
             padding="0"
-        elif number >= 10000:
+        elif number >= 1000000:
             padding="00" 
-        elif number >= 1000:
+        elif number >= 100000:
             padding="000" 
-        elif number >= 100:
+        elif number >= 10000:
             padding="0000" 
-        elif number >= 10:
+        elif number >= 1000:
             padding="00000" 
+        elif number >= 100:
+            padding="000000" 
+        elif number >= 10:
+            padding="0000000" 
         else:
-            padding="000000"
+            padding="00000000"
         cv2.imwrite('testimage'+padding+str(number)+'.png', img)
 
         if mirror: 
