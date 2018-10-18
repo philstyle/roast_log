@@ -4,7 +4,7 @@ myimg = cv2.imread('image.jpg')
 
 
 def show_webcam(mirror=False):
-    cam = cv2.VideoCapture(1)
+    cam = cv2.VideoCapture(0)
     number = 0
     while True:
         ret_val, img = cam.read()
@@ -12,10 +12,17 @@ def show_webcam(mirror=False):
 
         avg_color_per_row = numpy.average(img, axis=0)
         avg_color = numpy.average(avg_color_per_row, axis=0)
-        img = numpy.zeros((1,1,3), numpy.uint8)
-        print(img)
-        numpy.put(img, [0,1,2], avg_color)
-        print(img)
+        img = numpy.zeros((1000,1,3), numpy.uint8)
+        #print(img)
+        first = 0
+        second = 1
+        third = 2
+        while third < 3001:
+            numpy.put(img, [first,second,third], avg_color)
+            first += 3
+            second += 3
+            third += 3
+        #print(img)
         if number > 10000000:
             padding="0"
         elif number >= 1000000:
