@@ -6,11 +6,14 @@ myimg = cv2.imread('image.jpg')
 def show_webcam(mirror=False):
     cam = cv2.VideoCapture(0)
     number = 0
+    thousands = 0
     while True:
-        ret_val, img = cam.read()
-        #cv2.imwrite('testimage'+str(number)+'.png', img)
-
-        avg_color_per_row = numpy.average(img, axis=0)
+        ret_val, orig_img = cam.read()
+        #cv2.imwrite('testimage'+str(number)+'.png', orig_img)
+        if not ret_val:
+            print("trouble!")
+            continue
+        avg_color_per_row = numpy.average(orig_img, axis=0)
         avg_color = numpy.average(avg_color_per_row, axis=0)
         img = numpy.zeros((1000,1,3), numpy.uint8)
         #print(img)
@@ -23,7 +26,9 @@ def show_webcam(mirror=False):
             second += 3
             third += 3
         #print(img)
-        if number > 10000000:
+        if number%1000 == 0 and number != 0:
+            thousands += 1
+        if number >= 10000000:
             padding="0"
         elif number >= 1000000:
             padding="00" 
@@ -39,7 +44,14 @@ def show_webcam(mirror=False):
             padding="0000000" 
         else:
             padding="00000000"
-        cv2.imwrite('testimage'+padding+str(number)+'.png', img)
+
+        if thousands >= 100:
+            thoupad = ""
+        elif thousands >= 10:
+            thoupad = "0"
+        else:
+            thoupad = "00"
+        cv2.imwrite('./'+thoupad+str(thousands)+'/roastimage'+padding+str(number)+'.png', img)
 
         if mirror: 
             img = cv2.flip(img, 1)
