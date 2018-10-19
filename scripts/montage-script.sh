@@ -1,2 +1,2 @@
 #!/bin/bash
-montage -mode Concatenate testimage* bigg3.jpg
+montage -mode Concatenate -tile x1 testimage* bigg3.jpg
