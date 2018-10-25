@@ -1,0 +1,159 @@
+{
+    "steps": [
+        {
+            "fanSpeed": 9,
+            "targetTemp": 178,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 183,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 188,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 194,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 201,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 211,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 222,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 232,
+            "sectionTime": 14
+        },
+        {
+            "fanSpeed": 9,
+            "targetTemp": 244,
+            "sectionTime": 15
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 256,
+            "sectionTime": 16
+        },
+        {
+            "fanSpeed": 8,
+            "targetTemp": 268,
+            "sectionTime": 17
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 282,
+            "sectionTime": 18
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 308,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 329,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 345,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 358,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 368,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 378,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 387,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 395,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 403,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 410,
+            "sectionTime": 29
+        },
+        {
+            "fanSpeed": 5,
+            "targetTemp": 418,
+            "sectionTime": 39
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 425,
+            "sectionTime": 49
+        },
+        {
+            "fanSpeed": 6,
+            "targetTemp": 430,
+            "sectionTime": 49
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 432,
+            "sectionTime": 59
+        },
+        {
+            "fanSpeed": 7,
+            "targetTemp": 436,
+            "sectionTime": 59
+        },
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 180
+        }
+    ],
+    "totalTime": 964,
+    "roastDescription": {
+        "description": "",
+        "roastType": ""
+    },
+    "bean": {
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        },
+        "region": ""
+    },
+    "roastName": "31 - 29 even softer curve optional extra minute",
+    "creator": "dozier"
+}
