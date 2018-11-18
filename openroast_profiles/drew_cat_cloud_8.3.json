@@ -1,0 +1,429 @@
+{
+    "steps": [
+        {
+			"fanSpeed": 9,
+			"targetTemp": 226,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 229,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 232,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 236,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 239,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 242,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 246,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 249,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 252,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 255,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 259,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 263,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 267,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 272,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 276,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 280,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 285,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 289,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 293,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 297,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 302,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 306,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 309,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 315,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 319,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 323,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 9,
+			"targetTemp": 328,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 332,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 336,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 340,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 345,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 348,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 351,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 355,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 358,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 361,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 364,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 368,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 371,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 374,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 378,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 381,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 384,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 388,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 391,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 394,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 397,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 401,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 404,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 407,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 411,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 413,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 415,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 418,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 420,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 422,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 424,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 427,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 429,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 431,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 434,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 436,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 438,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 440,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 443,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 444,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 445,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 446,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 447,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 448,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 449,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 450,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 451,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 452,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 453,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 454,
+			"sectionTime": 19
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 455,
+			"sectionTime": 19
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 456,
+			"sectionTime": 19
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 457,
+			"sectionTime": 19
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 458,
+			"sectionTime": 19
+		},
+		{
+			"fanSpeed": 8,
+			"targetTemp": 459,
+			"sectionTime": 19
+		},
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 180
+        }
+    ],
+    "totalTime": 964,
+    "roastDescription": {
+        "description": "for 120g",
+        "roastType": ""
+    },
+    "bean": {
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        },
+        "region": ""
+    },
+    "roastName": "cat-cloud style v8.3 higher fan longer +5 more deg",
+    "creator": ""
+}
