@@ -1,0 +1,429 @@
+{
+    "steps": [
+        {
+			"fanSpeed": 7,
+			"targetTemp": 221,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 224,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 227,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 231,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 234,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 237,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 241,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 244,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 247,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 250,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 254,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 258,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 262,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 267,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 271,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 275,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 280,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 7,
+			"targetTemp": 284,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 288,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 292,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 297,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 301,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 304,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 310,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 314,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 318,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 6,
+			"targetTemp": 323,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 327,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 331,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 335,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 340,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 343,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 346,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 350,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 353,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 356,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 359,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 363,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 366,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 369,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 373,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 376,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 379,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 383,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 386,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 389,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 392,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 396,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 399,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 402,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 406,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 408,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 410,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 3,
+			"targetTemp": 413,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 415,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 417,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 419,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 422,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 424,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 426,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 429,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 431,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 4,
+			"targetTemp": 433,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 435,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 438,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 439,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 440,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 441,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 442,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 443,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 444,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 445,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 446,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 447,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 448,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 449,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 450,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 451,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 452,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 453,
+			"sectionTime": 9
+		},
+		{
+			"fanSpeed": 5,
+			"targetTemp": 454,
+			"sectionTime": 9
+		},
+        {
+            "cooling": true,
+            "fanSpeed": 9,
+            "sectionTime": 180
+        }
+    ],
+    "totalTime": 964,
+    "roastDescription": {
+        "description": "for 120g",
+        "roastType": ""
+    },
+    "bean": {
+        "country": "",
+        "source": {
+            "reseller": "",
+            "link": ""
+        },
+        "region": ""
+    },
+    "roastName": "cat-cloud style v7 (+35deg and softerrrr end)",
+    "creator": ""
+}
