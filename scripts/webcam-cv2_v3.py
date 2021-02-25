@@ -4,9 +4,12 @@ import time
 
 DURATION = 300
 FRAMES_PER_SECOND = 5
+MINOR_FRAMEMODULO = 30 * FRAMES_PER_SECOND
+MAJOR_FRAMEMODULO = 60 * FRAMES_PER_SECOND
 ROLLING_WINDOW_WIDTH = 1200
 OUTPUT_HEIGHT = 400
 OUTPUT_BUCKET_CAP = (OUTPUT_HEIGHT * 3) + 1
+MARK_COLOR = 255
 
 def show_webcam(mirror=False):
     cam = cv2.VideoCapture(0)
@@ -48,11 +51,39 @@ def show_webcam(mirror=False):
         first = 0
         second = 1
         third = 2
-        while third < OUTPUT_BUCKET_CAP:
+
+        while third < (OUTPUT_BUCKET_CAP - 12):
             numpy.put(img, [first,second,third], avg_color)
             first += 3
             second += 3
             third += 3
+	#stopped four short, add 2 black pixels every major, 4 black pixels every minor
+
+	if (number % MAJOR_FRAMEMODULO) == 0:
+            while third < OUTPUT_BUCKET_CAP:
+                numpy.put(img, [first,second,third], MARK_COLOR)
+                first += 3
+                second += 3
+                third += 3
+	elif (number % MINOR_FRAMEMODULO) == 0:
+            while third < (OUTPUT_BUCKET_CAP - 6):
+                numpy.put(img, [first,second,third], avg_color)
+                first += 3
+                second += 3
+                third += 3
+	    numpy.put(img, [first,second,third], MARK_COLOR)
+            first += 3
+            second += 3
+            third += 3
+	    numpy.put(img, [first,second,third], MARK_COLOR)
+	else:
+            while third < OUTPUT_BUCKET_CAP:
+                numpy.put(img, [first,second,third], avg_color)
+                first += 3
+                second += 3
+                third += 3
+
+
 
         if number == 0:
             full_image = img
