@@ -47,8 +47,8 @@ def show_webcam(cam):
 
         ret_val, orig_img = cam.read()
         if not ret_val:
-            print("trouble!")
-            continue
+            print("trouble connecting to %s" % (cam))
+            break
         #cropped_img = orig_img[360:640, 720:1280]
 	
 	#for 1600x1200
