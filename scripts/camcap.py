@@ -15,10 +15,15 @@ MARK_COLOR = 255
 
 #VERSION 4
 
-def show_webcam(camera):
-    cam = camera
-    framerate = cam.set(cv2.CAP_PROP_FPS, FRAMES_PER_SECOND)
+def show_webcam(cam):
+
+    #cv2.namedWindow("roast", cv2.WINDOW_NORMAL)
+    #cv2.resizeWindow("roast", ROLLING_WINDOW_WIDTH, OUTPUT_HEIGHT)
+
     time.sleep(2)
+    #framerate = cam.set(cv2.CAP_PROP_FPS, FRAMES_PER_SECOND)
+    #cam.set(3, 1600)
+    #cam.set(4, 1200)
 
     start_time = time.time()
 
@@ -44,11 +49,16 @@ def show_webcam(camera):
         if not ret_val:
             print("trouble!")
             continue
-        cropped_img = orig_img[360:640, 720:1280]
+        #cropped_img = orig_img[360:640, 720:1280]
+	
+	#for 1600x1200
+        #cropped_img = orig_img[300:900, 400:1200]
 
-        #cv2.imwrite('testimage'+str(number)+'.png', cropped_img)
-
-        avg_color_per_row = numpy.average(cropped_img, axis=0)
+        #for 1024x768
+        cropped_img = orig_img[192:576, 256:768]
+	cv2.imshow("CROP", cropped_img)
+        
+	avg_color_per_row = numpy.average(cropped_img, axis=0)
         avg_color = numpy.average(avg_color_per_row, axis=0)
         img = numpy.zeros((OUTPUT_HEIGHT,1,3), numpy.uint8)
 
@@ -106,7 +116,7 @@ def show_webcam(camera):
 	else:
 	    partial_image = full_image
 
-	cv2.imshow("Foo", partial_image)
+	cv2.imshow("roast", partial_image)
         cv2.waitKey(1)
       except KeyboardInterrupt:
 	end_datetime = datetime.now().strftime("%Y.%m.%d.%H%M%S")
@@ -122,7 +132,7 @@ def show_webcam(camera):
 
     #SHOW IS OVER
     #DO SOMETHING TO INDICATE WE ARE DONE RECORDING BUT ALSO JUST SHOW THE THING
-    time.sleep(5)
+    #time.sleep(5)
     cv2.destroyAllWindows()
 
 
