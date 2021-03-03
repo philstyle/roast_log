@@ -55,7 +55,8 @@ def show_webcam(cam):
         #cropped_img = orig_img[300:900, 400:1200]
 
         #for 1024x768
-        cropped_img = orig_img[192:576, 256:768]
+        #cropped_img = orig_img[192:576, 256:768]
+        cropped_img = orig_img[288:480, 384:640]
         cv2.imshow("CROP", cropped_img)
         
         avg_color_per_row = numpy.average(cropped_img, axis=0)
