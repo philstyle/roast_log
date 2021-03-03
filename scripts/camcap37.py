@@ -59,14 +59,10 @@ def build_image(number, average_color, image_being_built):
 
     return image_being_built
 
-
-def show_webcam(cam):
-    time.sleep(2)
-
+def record_webcam(cam):
+    time.sleep(1)
     start_time = time.time()
-
     frame_time = (1.0 / FRAMES_PER_SECOND)
-
     next_frame_time = start_time + frame_time
 
     # setup_image for prep before to get lined up and greycard
@@ -74,18 +70,14 @@ def show_webcam(cam):
 
     # full_image for final roast output image
     full_image = None
-
     number = 0
-
     while True:
         try:
             # waiting until at least next frame time
             now = time.time()
             if now < next_frame_time:
                 time.sleep(next_frame_time - now)
-
             next_frame_time = start_time + ((number + 1) * frame_time)
-
             ret_val, orig_img = cam.read()
             if not ret_val:
                 print("trouble connecting to %s" % cam)
@@ -138,8 +130,8 @@ def show_webcam(cam):
 
 
 def main():
-    show_webcam(cv2.VideoCapture(0))
-
+    record_webcam(cv2.VideoCapture(0))
+    record_webcam(cv2.VideoCapture(0))
 
 if __name__ == '__main__':
     main()
