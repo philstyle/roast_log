@@ -13,17 +13,58 @@ OUTPUT_BUCKET_CAP = (OUTPUT_HEIGHT * 3) + 1
 MARK_COLOR = 255
 
 
-#VERSION 4
+#VERSION 6
+
+def build_image(number, average_color, image_being_built):
+    img = numpy.zeros((OUTPUT_HEIGHT,1,3), numpy.uint8)
+
+    first = 0
+    second = 1
+    third = 2
+    #normally just put the average color into the array
+    while third < (OUTPUT_BUCKET_CAP - 12):
+        numpy.put(img, [first,second,third], average_color)
+        first += 3
+        second += 3
+        third += 3
+    #stopped four short, add 2 pixels every major, 4 pixels every minor
+    if (number % MAJOR_FRAMEMODULO) == 0:
+        while third < OUTPUT_BUCKET_CAP:
+            numpy.put(img, [first,second,third], MARK_COLOR)
+            first += 3
+            second += 3
+            third += 3
+    elif (number % MINOR_FRAMEMODULO) == 0:
+        while third < (OUTPUT_BUCKET_CAP - 6):
+            numpy.put(img, [first,second,third], average_color)
+            first += 3
+            second += 3
+            third += 3
+        numpy.put(img, [first,second,third], MARK_COLOR)
+        first += 3
+        second += 3
+        third += 3
+        numpy.put(img, [first,second,third], MARK_COLOR)
+    else:
+        while third < OUTPUT_BUCKET_CAP:
+            numpy.put(img, [first,second,third], average_color)
+            first += 3
+            second += 3
+            third += 3
+
+    if image_being_built is None:
+        image_being_built = img
+    else:
+        image_being_built = cv2.hconcat([image_being_built, img])
+
+    return image_being_built
+
+
 
 def show_webcam(cam):
 
-    #cv2.namedWindow("roast", cv2.WINDOW_NORMAL)
-    #cv2.resizeWindow("roast", ROLLING_WINDOW_WIDTH, OUTPUT_HEIGHT)
 
     time.sleep(2)
-    #framerate = cam.set(cv2.CAP_PROP_FPS, FRAMES_PER_SECOND)
-    #cam.set(3, 1600)
-    #cam.set(4, 1200)
 
     start_time = time.time()
 
@@ -32,6 +73,10 @@ def show_webcam(cam):
     frame_time_millis = int((frame_time * 1000))
     next_frame_time = start_time + frame_time
 
+    #setup_image for prep before to get lined up and greycard
+    setup_image = None
+
+    #full_image for final roast output image
     full_image = None
     
     number = 0
@@ -61,49 +106,8 @@ def show_webcam(cam):
         
         avg_color_per_row = numpy.average(cropped_img, axis=0)
         avg_color = numpy.average(avg_color_per_row, axis=0)
-        img = numpy.zeros((OUTPUT_HEIGHT,1,3), numpy.uint8)
 
-        first = 0
-        second = 1
-        third = 2
-
-        while third < (OUTPUT_BUCKET_CAP - 12):
-            numpy.put(img, [first,second,third], avg_color)
-            first += 3
-            second += 3
-            third += 3
-	#stopped four short, add 2 black pixels every major, 4 black pixels every minor
-
-        if (number % MAJOR_FRAMEMODULO) == 0:
-            while third < OUTPUT_BUCKET_CAP:
-                numpy.put(img, [first,second,third], MARK_COLOR)
-                first += 3
-                second += 3
-                third += 3
-        elif (number % MINOR_FRAMEMODULO) == 0:
-            while third < (OUTPUT_BUCKET_CAP - 6):
-                numpy.put(img, [first,second,third], avg_color)
-                first += 3
-                second += 3
-                third += 3
-            numpy.put(img, [first,second,third], MARK_COLOR)
-            first += 3
-            second += 3
-            third += 3
-            numpy.put(img, [first,second,third], MARK_COLOR)
-        else:
-            while third < OUTPUT_BUCKET_CAP:
-                numpy.put(img, [first,second,third], avg_color)
-                first += 3
-                second += 3
-                third += 3
-
-
-
-        if number == 0:
-            full_image = img
-        else:
-            full_image = cv2.hconcat([full_image, img])
+        full_image = build_image(number, avg_color, full_image)
 
         number += 1
 
