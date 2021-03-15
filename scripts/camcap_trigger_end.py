@@ -17,6 +17,8 @@ MARK_COLOR = 255
 # 1 second buffer until the average color changes "significantly" for more than 3 frames
 BUFFER = [[0.0,0.0,0.0]] * (FRAMES_PER_SECOND * 2)
 
+STOP_FRAME = [0.0,0.0,0.0]
+
 def print_buffer():
     for i in range(FRAMES_PER_SECOND):
         #print("BUFFER %i: %f" % (i, BUFFER[i]))
@@ -53,6 +55,10 @@ def spool(camera):
         if frame < (FRAMES_PER_SECOND * 4):
             BUFFER[frame % (FRAMES_PER_SECOND * 2)] = avg_color
         else:
+            if frame == (FRAMES_PER_SECOND * 4):
+                global STOP_FRAME
+                STOP_FRAME = avg_color
+                #STORING STOP FRAME FOR CATCHING END OF ROAST
             print(avg_color)
             #TIME TO COMPARE
             #THIS FRAME TO FRAME #FRAMES_PER_SECOND ago?
@@ -73,9 +79,11 @@ def spool(camera):
             #break
         #increment frame
         frame += 1
-        if frame >= 200:
-            break
 
+def distance_from_end(avg_color):
+    #return euclidean distance between average color and stop frame color
+    print (STOP_FRAME)
+    return numpy.linalg.norm(avg_color - STOP_FRAME )
 
 def build_image(number, average_color, image_being_built):
     img = numpy.zeros((OUTPUT_HEIGHT, 1, 3), numpy.uint8)
@@ -132,6 +140,8 @@ def record_webcam(cam):
     # full_image for final roast output image
     full_image = None
     number = 0
+    endframes = 0
+    #if we get to 5 endframes, shut it down (endframes mean distance from STOP_FRAME of less tahn ??
     while True:
         try:
             # waiting until at least next frame time
@@ -172,6 +182,24 @@ def record_webcam(cam):
 
             #cv2.imshow("roast", partial_image)
             #cv2.waitKey(1)
+            print(avg_color)
+            print(distance_from_end(avg_color))
+            if distance_from_end(avg_color) < 2:
+                #increment counter for end tracking
+                endframes += 1
+            else:
+                endframes = 0
+            if endframes >= 5:
+                end_datetime = datetime.now().strftime("%Y.%m.%d.%H%M%S")
+                end_time = time.time()
+                duration = int(round(end_time - start_time))
+                if duration > 60:
+                    mins = int(duration / 60)
+                    remain = duration % 60
+                    duration = str(mins) + "Min" + str(remain)
+                filename = "./%s-%sSec-%sFPS.png" % (end_datetime, duration, FRAMES_PER_SECOND)
+                cv2.imwrite(filename, full_image)
+                break
         except KeyboardInterrupt:
             end_datetime = datetime.now().strftime("%Y.%m.%d.%H%M%S")
             end_time = time.time()
