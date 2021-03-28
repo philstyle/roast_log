@@ -13,7 +13,6 @@ ROLLING_WINDOW_WIDTH = 1000
 OUTPUT_HEIGHT = 400
 OUTPUT_BUCKET_CAP = (OUTPUT_HEIGHT * 3) + 1
 MARK_COLOR = 255
-PICAM_CLASS= "<class 'picamera.camera.PiCamera'>"
 
 RESOLUTION = (320,320)
 FRAMERATE = FRAMES_PER_SECOND
@@ -25,8 +24,7 @@ CAM_AWB_MODE = 'off'
 CAM_AWB_GAINS = 0
 IMAGE_TYPE='bgr'
 
-# VERSION 9
-# 1 second buffer until the average color changes "significantly" for more than 3 frames
+# 2 second buffer until the average color changes "significantly" for more than 3 frames
 BUFFER = [[0.0,0.0,0.0]] * (FRAMES_PER_SECOND * 2)
 
 STOP_FRAME = [0.0,0.0,0.0]
@@ -112,8 +110,9 @@ def build_image(number, average_color, image_being_built):
             first += 3
             second += 3
             third += 3
+        numpy.put(img, [first, second, third], MARK_COLOR)
     elif (number % MINOR_FRAMEMODULO) == 0:
-        while third < (OUTPUT_BUCKET_CAP - 12):
+        while third < (OUTPUT_BUCKET_CAP - 6):
             numpy.put(img, [first, second, third], average_color)
             first += 3
             second += 3
